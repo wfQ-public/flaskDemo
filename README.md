@@ -15,7 +15,7 @@ pip3 install -r requirements.txt
 ```
 # /root/flaskDemo/app.py表示项目根路径下的app.py启动入口文件路径
 # /root/flaskDemo/flaskDemo.log表示输出的日志文件路径
-nohup python3 /root/flaskDemo/app.py >/root/flaskDemo/flaskDemo.log 2>&1 &
+nohup python3 app.py > flaskDemo.log 2>&1 &
 ```
 
 ## 数据库设计
